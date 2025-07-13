@@ -30,7 +30,7 @@ transformed_hybrid_data_path = "data/transformed_hybrid_data.npz"
 transformed_hybrid_data = load_npz(transformed_hybrid_data_path)
 
 # UI Title and Description
-st.title(' Song Recommender')
+st.title('Song Recommender')
 st.write('Enter a song and artist name to get personalized music recommendations.')
 
 # Inputs
